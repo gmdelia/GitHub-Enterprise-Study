@@ -57,35 +57,35 @@ Before nesting teams, you should perform the following steps:
 
 # Roles in Organization
 
-Roles play a pivotal role in controlling access and permissions within your GitHub Enterprise organization. This section provides a concise overview of the different roles available and how they can be assigned to individuals and teams.
+Roles play a pivotal role in controlling access and permissions within a GitHub Enterprise organization. This section provides a concise overview of the different roles available and how they can be assigned to individuals and teams.
 
 ### About Roles
 
-To carry out actions on GitHub, individuals must have the necessary permissions for specific accounts or resources. Permissions grant the ability to perform specific actions, such as creating a pull request or modifying billing settings. Roles, on the other hand, encompass a collection of permissions that can be allocated to individuals or teams.
+To carry out actions on GitHub, individuals must have the necessary permissions for specific accounts or resources. **Permissions** grant the *ability to perform specific actions*, such as creating a pull request or modifying billing settings. **Roles**, on the other hand, encompass *a collection of permissions that can be allocated to individuals or teams*.
 
-- **Repository-Level Roles:** These roles grant varying levels of access to repositories for organization members, external collaborators, and teams. Refer to "Repository roles for an organization" for detailed information.
+- **Repository-Level Roles:** These roles grant varying levels of access to repositories for organization members, external collaborators, and teams. 
 
-- **Team-Level Roles:** Team-level roles are designed to provide permissions for managing a team. For instance, the team maintainer role grants administrative permissions over a team member. Learn more about "Assigning the team maintainer role to a team member."
+- **Team-Level Roles:** Team-level roles are designed to provide permissions for managing a team. For instance, the team maintainer role grants administrative permissions over a team member. 
 
-- **Organization-Level Roles:** Organization-level roles encompass sets of permissions that can be assigned to individuals or teams for overseeing the organization, its repositories, teams, and settings. For an extensive list of organization-level roles, explore "About organization roles."
+- **Organization-Level Roles:** Organization-level roles encompass sets of permissions that can be assigned to individuals or teams for overseeing the organization, its repositories, teams, and settings. 
 
 ### Understanding Organization Roles
 
-A variety of organization-level roles are available to help manage access and resources within your organization. Each role is associated with specific permissions. Detailed information about the individual permissions included in each role can be found in "Permissions for organization roles."
+A variety of organization-level roles are available to help manage access and resources within your organization. Each role is associated with specific permissions. 
 
-For organizations owned by enterprise accounts, enterprise owners have the flexibility to join your organization with any role. Learn more in "Managing your role in an organization owned by your enterprise."
+For organizations owned by enterprise accounts, enterprise owners have the flexibility to join your organization with any role.
 
-- **Organization Owners:** Organization owners possess complete administrative access to the organization and its resources. It is advisable to limit the number of organization owners, but there should be at least two individuals with this role to ensure ownership continuity. For insights, visit "Maintaining ownership continuity for your organization."
+- **Organization Owners:** Organization owners possess complete administrative access to the organization and its resources. It is advisable to limit the number of organization owners, but there should be at least two individuals with this role to ensure ownership continuity. 
 
-- **Organization Members:** The default role for individuals in an organization is an organization member. Members have various permissions, including the ability to create repositories and project boards.
+- **Organization Members:** *The default role for individuals in an organization* is an organization member. Members have various permissions, including the ability to create repositories and project boards.
 
-- **Organization Moderators:** Moderators, in addition to their member permissions, have the authority to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization. Discover more about "Managing moderators in your organization."
+- **Organization Moderators:** Moderators, in addition to their member permissions, have the authority to block and unblock non-member contributors, set interaction limits, and hide comments in public repositories owned by the organization.
 
-- **Billing Managers:** Billing managers have the ability to manage the billing settings for the organization, such as payment information. This role is particularly useful when regular organization members do not typically have access to billing resources. Learn how to "Add a billing manager to your organization."
+- **Billing Managers:** Billing managers have the ability to manage the billing settings for the organization, such as payment information. This role is particularly useful when regular organization members do not typically have access to billing resources. 
 
-- **Security Managers:** Please note that the security manager role is in public beta and subject to change. Security managers can be assigned by organization owners to any team. This role provides team members with permissions to manage security alerts and settings across the organization, along with read permissions for all repositories. This is a valuable option for organizations with security teams. "Managing security managers in your organization" provides more details.
+- **Security Managers:** Please note that the security manager role is in public beta and subject to change. Security managers can be assigned by organization owners to any team. This role provides team members with permissions to manage security alerts and settings across the organization, along with read permissions for all repositories. This is a valuable option for organizations with security teams. 
 
-- **GitHub App Managers:** By default, only organization owners can manage GitHub App registrations owned by the organization. GitHub App managers are designated by owners to oversee the settings of these registrations. "Adding and removing GitHub App managers in your organization" explains the process.
+- **GitHub App Managers:** By default, only organization owners can manage GitHub App registrations owned by the organization. GitHub App managers are designated by owners to oversee the settings of these registrations.
 
 - **Outside Collaborators:** To maintain data security while granting access to repositories, outside collaborators can be added. These individuals have access to one or more organization repositories but are not official members of the organization. They may include consultants or temporary employees.
 
@@ -105,13 +105,13 @@ Individuals with administrative access to a repository can add outside collabora
 
 An outside collaborator refers to an individual who is not a member of your organization but has access to one or more repositories owned by your organization. The level of access granted to each outside collaborator can be customized to suit your needs. When adding an outside collaborator to a repository, you'll also need to include them in any forks of the repository that you want them to access. If you're adding an outside collaborator to a private or internal fork of a repository, please note that the collaborator must be a member of the enterprise or a collaborator on the upstream repository.
 
-It's important to be aware that adding an outside collaborator to a private or internal repository consumes one of your paid licenses. To learn more about this, consult "About per-user pricing."
+It's important to be aware that **adding an outside collaborator to a private or internal repository consumes one of your paid licenses**. 
 
 ### Special Considerations
 
-- **Invitation Restrictions:** Organization owners have the ability to control who can invite collaborators. For a deeper understanding, explore "Setting permissions for adding outside collaborators."
+- **Invitation Restrictions:** Organization owners have the ability to control who can invite collaborators. 
 
-- **Two-Factor Authentication:** If your organization mandates two-factor authentication, all outside collaborators must enable this feature before accepting invitations to collaborate on a repository. For further insights, read "Requiring two-factor authentication in your organization."
+- **Two-Factor Authentication:** If your organization mandates two-factor authentication, all outside collaborators must enable this feature before accepting invitations to collaborate on a repository. 
 
 ### Adding Outside Collaborators to a Repository
 
@@ -144,12 +144,10 @@ The roles for an organization repository, ranked from least access to most acces
 
 You also have the flexibility to create custom repository roles tailored to your organization's needs. For more details, refer to "Managing custom repository roles for an organization."
 
-Organization owners have the authority to set base permissions that apply uniformly to all organization members when accessing any of the organization's repositories. For additional information, see "Setting base permissions for an organization."
+Organization owners have the authority to set base permissions that apply uniformly to all organization members when accessing any of the organization's repositories.
 
-Furthermore, organization owners can make decisions about further restricting access to specific settings and actions throughout the organization. To explore various options for specific settings, consult "Managing organization settings."
+Furthermore, organization owners can make decisions about further restricting access to specific settings and actions throughout the organization. 
 
-In addition to overseeing organization-level settings, organization owners possess administrative access to every repository owned by the organization. For more insights, check out "Roles in an organization."
-
-**Warning:** When someone adds a deploy key to a repository, any user possessing the private key can read from or write to the repository (depending on the key's settings), even if they are subsequently removed from the organization.
+In addition to overseeing organization-level settings, organization owners possess administrative access to every repository owned by the organization. 
 
 [Reference](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)
