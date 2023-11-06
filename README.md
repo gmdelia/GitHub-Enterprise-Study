@@ -120,3 +120,36 @@ To provide outside collaborators with access to a repository, navigate to your r
 By understanding this process, it is possibile efficiently collaborate with individuals who aren't official members of your organization while maintaining the necessary access control.
 
 [Reference](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization)
+
+
+## Repository Roles for Organizations
+
+This section outlines the different repository roles available for organizations, allowing you to fine-tune access to each repository by assigning granular roles. These roles provide individuals and teams with specific access levels, aligning with their responsibilities and requirements.
+
+### Repository Roles for Organizations
+
+You can allocate varying levels of access to repositories owned by your organization by assigning roles to organization members, outside collaborators, and teams. Select the role that best suits the responsibilities of each individual or team in your project, providing them with the necessary access without granting excessive privileges.
+
+The roles for an organization repository, ranked from least access to most access, are as follows:
+
+1. **Read:** This role is recommended for non-code contributors who primarily want to view or discuss your project.
+
+2. **Triage:** Suitable for contributors who need to proactively manage issues, discussions, and pull requests without the ability to make direct changes.
+
+3. **Write:** Designed for contributors who actively push changes to your project.
+
+4. **Maintain:** This role is ideal for project managers who require the ability to manage the repository without access to sensitive or destructive actions.
+
+5. **Admin:** This role is recommended for individuals who need full access to the project, including permissions for sensitive and potentially destructive actions such as managing security or deleting a repository.
+
+You also have the flexibility to create custom repository roles tailored to your organization's needs. For more details, refer to "Managing custom repository roles for an organization."
+
+Organization owners have the authority to set base permissions that apply uniformly to all organization members when accessing any of the organization's repositories. For additional information, see "Setting base permissions for an organization."
+
+Furthermore, organization owners can make decisions about further restricting access to specific settings and actions throughout the organization. To explore various options for specific settings, consult "Managing organization settings."
+
+In addition to overseeing organization-level settings, organization owners possess administrative access to every repository owned by the organization. For more insights, check out "Roles in an organization."
+
+**Warning:** When someone adds a deploy key to a repository, any user possessing the private key can read from or write to the repository (depending on the key's settings), even if they are subsequently removed from the organization.
+
+[Reference](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)
